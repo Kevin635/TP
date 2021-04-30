@@ -1,0 +1,371 @@
+/*.font{
+
+    
+}
+*/
+
+/* .links{
+    color: black;
+    text-decoration: none;
+}
+.links a:link,.links a:visited{
+    text-decoration: none;
+    color: black
+
+} */
+
+/* a:hover{
+    color: orangered;
+} */
+#link a:link,#link a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+#link a:hover{
+    color:orangered
+}
+
+#logo{
+    color: #000;
+}
+
+
+/*side Menu---------------------------------------------*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  /*Center*/
+  .center{
+      position: absolute;
+      top:65%;
+      left:50%;
+      transform: translate(-50%,-50%);
+  }
+
+  /* Icons Format------------------------------------ */
+
+  /*Icon 1 */
+  #icon1{
+    position:absolute;
+    width:10px;
+    height:10px;
+    top:20px;
+    right:150px; 
+  }
+
+  #icon1 a:link,#icon1 a:visited{
+    color: black;
+  }
+  #icon1 a:hover{
+    color: orangered;
+}
+
+  /*Icon 2 */
+  #icon2{
+    position:absolute;
+    width:10px;
+    height:10px;
+    top:25px;
+    right:100px; 
+  }
+
+  #icon2 a:link,#icon2 a:visited{
+    color: black;
+  }
+
+  #icon2 a:hover{
+    color: orangered;
+}
+
+/*Icon 3(footer) */
+
+
+#icon3 a:link,#icon3 a:visited{
+  color: black;
+}
+
+#icon3 a:hover{
+  color: #00a693;
+}
+
+
+
+
+/*Icon 4(footer) */
+
+
+
+/*Icon 5(footer) */
+
+
+/*End of Icon Format----------------------------------------*/
+
+/*Center the text */
+#text_center{
+    color: black;
+}
+
+
+/* For product image*/
+#product{
+    text-decoration: black;
+}
+
+
+
+
+
+
+/*Search bar*/
+
+
+body {
+	background: #fff;
+	color: #666;
+	font: 90%/180% Arial, Helvetica, sans-serif;
+	
+}
+a {
+	color: #69C;
+	text-decoration: none;
+}
+a:hover {
+	color: #F60;
+}
+h1 {
+	font: 1.7em;
+	line-height: 110%;
+	color: #000;
+}
+p {
+	margin: 0 0 20px;
+}
+
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+
+/*Search bar */
+#search{
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 0px;
+  left: 10px;
+  
+}
+
+/*Logo for service page */
+#Afflicate{
+  width: 500px;
+  position:absolute;
+  top:58%;
+  left:32%;
+}
+
+
+#Service:hover{
+  border: 2px solid orangered;
+  overflow: hidden;  
+  margin: -5px;  
+  
+}
+
+#Service{
+  border: 2px solid lightgrey; 
+  
+}
+
+/*For the FRQ page*/
+#info{
+  position: relative;
+  top:160px;
+  left:10px;
+  font-size: xx-large;
+}
+
+#info_logo{
+  text-align: none;
+}
+
+
+#about_page_title{
+  position: relative;
+  bottom: 175px;
+  left:420px;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 1px 1px white;
+}
+
+#founder_title{
+  position:relative;
+  top:100px;
+}
+
+#jenny_title{
+  position: relative;
+}
+
+/* Phone view */
+
+@media (max-width: 700px) {
+    #icon1{
+        right:70px
+    }
+    #icon2{
+        right:30px
+    }
+    #text_center{
+        text-align: center;
+    }
+    #product{
+        margin-bottom: 70px;
+        
+    }
+    #search{
+      position: relative;
+      /* Adjust these values accordingly */
+    top: 55px;
+    left: -35px;
+    margin-top:30px ;
+    }
+
+    #Afflicate{
+      position:absolute;
+      top:58%;
+      left:32%;
+      width: 300px ;
+    }
+    
+    #info{
+      text-align: center;
+      top:110px;
+      
+    }
+
+    #info_logo{
+      text-align: center;
+    }
+    
+    #about_page_title{
+      font-size: medium;
+      bottom: 83px;
+      left:215px;
+      
+    }
+
+    #jenny_title{
+      position: relative;
+      padding-top: 100px;
+    }
+   
+  }
